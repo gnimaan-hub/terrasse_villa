@@ -39,13 +39,13 @@ export default function Hero() {
       <motion.div className="absolute inset-0" style={{ y }}>
         <div
           className="w-full h-full bg-cover bg-center"
-          style={{ backgroundImage: "url('/la-terrasse-villa-guesthouse.jpg')" }}
+          style={{ backgroundImage: "url('/roof-top1.jpg')" }}
         />
       </motion.div>
 
       {/* Multi-layer overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-sea-950/80 via-sea-900/30 to-sea-950/90" />
-      <div className="absolute inset-0 bg-gradient-to-r from-sea-950/60 via-transparent to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-b from-sea-950/85 via-sea-900/55 to-sea-950/95" />
+      <div className="absolute inset-0 bg-gradient-to-r from-sea-950/70 via-sea-950/20 to-transparent" />
 
       {/* Coral/teal ambient glow */}
       <motion.div
@@ -111,7 +111,7 @@ export default function Hero() {
           className="flex items-center gap-2.5 border border-white/20 bg-white/5 backdrop-blur-sm px-4 py-2 rounded-sm mb-8"
         >
           <MapPin size={12} className="text-coral-400" />
-          <span className="font-body text-white/80 text-xs tracking-[0.3em] uppercase">
+          <span className="font-body text-white text-xs tracking-[0.3em] uppercase">
             Quartier Héron · Djibouti-Ville
           </span>
         </motion.div>
@@ -141,7 +141,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 15 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1.0, duration: 0.8 }}
-          className="font-accent italic text-sea-200 text-xl md:text-2xl mb-3"
+          className="font-accent italic text-white text-xl md:text-2xl mb-3"
         >
           Villa Guesthouse Djibouti
         </motion.p>
@@ -150,7 +150,7 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.2, duration: 0.8 }}
-          className="font-body text-white/60 text-sm md:text-base max-w-sm leading-relaxed mb-10"
+          className="font-body text-white/90 text-sm md:text-base max-w-sm leading-relaxed mb-10"
         >
           Un havre de paix entre mer Rouge et désert d'Afar
         </motion.p>
@@ -195,8 +195,8 @@ export default function Hero() {
             >
               <stat.icon size={15} className="text-coral-400 flex-shrink-0" />
               <div>
-                <div className="font-display text-white text-sm font-semibold leading-tight">{stat.value}</div>
-                <div className="font-body text-white/45 text-[10px] tracking-widest uppercase">{stat.label}</div>
+                <div className="font-display text-white text-base md:text-lg font-semibold leading-tight">{stat.value}</div>
+                <div className="font-body text-white/60 text-[10px] tracking-widest uppercase">{stat.label}</div>
               </div>
             </div>
           ))}
