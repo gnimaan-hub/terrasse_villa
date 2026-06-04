@@ -41,7 +41,7 @@ const ROOMS = [
     id: 'lac-abbe',
     num: '04',
     name: 'Suite Lac Abbé',
-    desc: 'Notre suite privative premium. Espace privatif avec salon, inspirée des paysages lunaires d\'Afar.',
+    desc: 'Notre suite privative premium. Espace privatif avec salon, inspirée des paysages lunaires\'.',
     img: '/suite-lac-abbe-privative.jpg',
     guests: 2, size: '28',
     priceFDJ: '15 500', priceUSD: '87',

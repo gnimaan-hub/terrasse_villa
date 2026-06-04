@@ -152,7 +152,7 @@ export default function Hero() {
           transition={{ delay: 1.2, duration: 0.8 }}
           className="font-body text-white/90 text-sm md:text-base max-w-sm leading-relaxed mb-10"
         >
-          Un havre de paix entre mer Rouge et désert d'Afar
+          "Un havre de paix entre Mer Rouge et désert"
         </motion.p>
 
         {/* CTAs */}
